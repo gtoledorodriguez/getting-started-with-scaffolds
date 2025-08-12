@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :books
 
   # READ Root
   get("/", { :controller => "movies", :action => "index" })
